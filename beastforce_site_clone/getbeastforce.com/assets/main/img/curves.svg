@@ -1,0 +1,19 @@
+<div class="curve-top-shape d-none d-xl-block">
+  <svg class="curve-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+    <path class="curve-path" d="M1000,4.3V0H0v4.3C0.9,23.1,126.7,99.2,500,100S1000,22.7,1000,4.3z"></path>
+  </svg>
+</div>
+
+<style>
+.curve-top-shape {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -1px;
+  transform: rotate(180deg);
+}
+.curve-top-shape .curve-svg {
+  height: 48px;
+  width: 100%;
+}
+</style>
